@@ -11,7 +11,7 @@ export const TEXTS = {
         },
 
         hero: {
-            title: "我是劉和志,<br/>也可以叫我Henry<br/>Live Young Forever,<br>樂觀向上是我的主軸",
+            title: "我是劉和志,也可以叫我Henry,Live Young Forever,樂觀向上是我的主軸",
             subtitle: "擅長使用React,Tailwind CSS,api串接,也是抖音內容創作者,有11萬粉絲的創作者背景",
             description: "我有在持續練習以真實產品為導向的前端開發,包含分類系統,購物車,狀態管理與頁面路由,重視組件拆分與代碼可讀性",
             lang: "精通英文,日文略懂"
