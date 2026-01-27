@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { TEXTS } from "./texts.JS";
+import { TEXTS } from "./texts.js";
 
 const LangContext = createContext();
 function LangProvider({ children }) {

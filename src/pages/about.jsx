@@ -1,5 +1,5 @@
 import { useLang } from "./i18n/langContext";
-import Image from "../assets/IMG_0504.jpg";
+import Image from "../assets/img_0504.jpg";
 function About() {
   const { lang } = useLang();
   return (
