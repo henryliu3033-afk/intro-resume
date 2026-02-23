@@ -11,8 +11,8 @@ function NavBar() {
             {t("nav.home")}
           </Link>
 
-          <div className="flex gap-6 text-sm">
-            <Link to="/about">{t("nav.about")}</Link>
+          <div className="flex gap-3 md:gap-10 text-sm md:text-xl">
+            <Link to="/about" className="hover:underline">{t("nav.about")}</Link>
             <Link to="/projects" className="hover:underline">
               {t("nav.projects")}
             </Link>

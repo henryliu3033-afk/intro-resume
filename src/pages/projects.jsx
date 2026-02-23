@@ -19,10 +19,10 @@ function Projects() {
             <h2 className="text-2xl font-semibold mb-2 ">
               {featured.title[lang]}
             </h2>
-            <p className="text-gray-600 mb-2 flex-">
+            <p className="text-gray-600 mb-2 flex flex-wrap">
               {featured.description[lang]}
             </p>
-            <div>
+            <div className="flex flex-wrap mb-4 gap-2">
               {featured.tech.map((t) => (
                 <span key={t} className="text-xs border px-2 py-1 rounded ">
                   {t}
